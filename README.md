@@ -8,4 +8,6 @@ El uso de la aplicación requiere acceso a la intranet de Neptune Lines y una cu
 
 Desde la versión 0.1.6, la aplicación comprueba si existen actualizaciones y permite instalarlas después de que el usuario confirme. Las actualizaciones están firmadas.
 
+La firma de actualizaciones de Tauri es independiente de la firma de editor de Windows (Authenticode). El instalador actual no tiene firma Authenticode y puede mostrar avisos de editor desconocido o falta de reputación al descargarse. El certificado HTTPS incluido corresponde al acceso a la API de la intranet.
+
 Este repositorio contiene únicamente los archivos de distribución. El código fuente se mantiene en un repositorio privado. Para soporte, contacta con TI de Neptune Lines.
